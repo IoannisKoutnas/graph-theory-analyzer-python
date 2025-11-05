@@ -1,22 +1,22 @@
 # Graph Theory Analysis – Karate Club
 
-An interactive Python tool built with Tkinter and Matplotlib to explore **graph theory algorithms** such as BFS, DFS, greedy coloring, and clique detection on the classic **Karate Club network**.
-
----
+An interactive Python application that visualizes and analyzes the classic Karate Club graph using graph theory algorithms.
 
 ## Features
-- Visualizes **BFS** and **DFS** traversals step-by-step using animation.
-- Implements **Greedy Graph Coloring** with dynamic color mapping.
-- Detects **Cycles** and finds the **Maximum Clique**.
-- Logs all algorithmic steps in an interactive UI console.
-
----
+- Breadth-First Search (BFS) traversal animation
+- Depth-First Search (DFS) traversal animation
+- Greedy graph coloring visualization
+- Cycle detection
+- Maximum clique finding and visualization
+- Logging panel for outputs
 
 ## Tech Stack
-- Python 3.x  
-- Tkinter (GUI)  
-- Matplotlib (Visualization)  
-- NetworkX (Graph algorithms)
+- Python 3
+- Tkinter (for GUI)
+- Matplotlib (for graph drawing and animation)
+- NetworkX (graph algorithms)
 
----
+## Installation
+
+1. Clone the repository:
 
