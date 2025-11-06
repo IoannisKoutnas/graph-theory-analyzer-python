@@ -1,10 +1,4 @@
-"""
-Graph Theory Analysis – Karate Club
------------------------------------
-Interactive Tkinter GUI app for visualizing and analyzing graph algorithms on the classic Karate Club network.
-Features BFS, DFS traversals, greedy coloring, cycle detection, and maximum clique finding.
-Author: IOANNIS KOUTNAS
-"""
+# Author: IOANNIS KOUTNAS
 
 import tkinter as tk                          # For GUI window and widgets
 from tkinter import scrolledtext              # For scrollable output box
