@@ -59,14 +59,12 @@ The application uses the **Zachary Karate Club** graph and provides step-by-step
 
 ## How to Run
 
-Install required libraries:
-bash
-pip install networkx matplotlib
+1. Install required libraries:
+bash pip install networkx matplotlib
+`
 
-Run the application:
-bash
-python main.py
-
+2. Run the application:
+bash python main.py
 ---
 
 ## Usage
