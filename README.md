@@ -11,10 +11,10 @@ The application uses the **Zachary Karate Club** graph and provides step-by-step
 
 ## Objectives
 
-- Provide a clear visual representation of graph algorithms  
-- Demonstrate algorithm behavior through controlled animation  
-- Expose structural properties of networks in an interpretable format  
-- Maintain clean separation between logic, visualization, and interface  
+- Provide a clear visual representation of graph algorithms
+- Demonstrate algorithm behavior through controlled animation
+- Expose structural properties of networks in an interpretable format
+- Maintain clean separation between logic, visualization, and interface
 
 ---
 
@@ -22,23 +22,22 @@ The application uses the **Zachary Karate Club** graph and provides step-by-step
 
 ### Traversal Algorithms
 
-- **Breadth-First Search (BFS)**
-  - Level-based exploration with depth tracking  
-  - Animated node progression  
+- **Breadth-First Search (BFS)**  
+  Level-based exploration with depth tracking and animated node progression
 
-- **Depth-First Search (DFS)**
-  - Recursive traversal with visual feedback  
+- **Depth-First Search (DFS)**  
+  Recursive traversal with visual feedback
 
 ### Graph Structure Analysis
 
-- **Greedy Coloring**
-  - Assigns the minimum possible colors so adjacent nodes differ  
+- **Greedy Coloring**  
+  Assigns the minimum possible colors so adjacent nodes differ
 
-- **Cycle Detection**
-  - Identifies whether cyclic paths exist in the graph  
+- **Cycle Detection**  
+  Identifies whether cyclic paths exist in the graph
 
-- **Maximum Clique Detection**
-  - Locates and highlights the largest fully connected subgroup  
+- **Maximum Clique Detection**  
+  Locates and highlights the largest fully connected subgroup
 
 ### Visualization & Interface
 
@@ -60,7 +59,47 @@ The application uses the **Zachary Karate Club** graph and provides step-by-step
 
 ## How to Run
 
-### 1. Install required libraries
+Install required libraries:
 
-```bash
 pip install networkx matplotlib
+
+Run the application:
+
+python main.py
+
+---
+
+## Usage
+
+- Select an operation (BFS, DFS, Coloring, Cycle, Clique) from the control panel
+- Observe the algorithm execution directly on the graph
+- Review detailed results in the log window
+- Reset the interface using **Clear Log**
+
+---
+
+## Graph Source
+
+Zachary Karate Club network  
+34 nodes, 78 edges
+
+---
+
+## Design Notes
+
+- Algorithms are implemented explicitly for clarity and correctness
+- Visual feedback is synchronized with traversal logic
+- Layout is fixed to support consistent interpretation
+- The application is structured for easy extension and reuse
+
+---
+
+## Author
+
+Ioannis Koutnas
+
+---
+
+## License
+
+MIT License
